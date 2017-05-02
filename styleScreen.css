@@ -1,0 +1,51 @@
+/* Laetitia Monnier */
+
+@media screen and (max-width: 1280px){
+    #BodyGalerie{
+    	position: relative;
+		padding-bottom: 30px;
+    }
+
+    #Titre{
+    	width: 200px;
+		height: 200px;
+    }
+
+    #Logo{
+    	width: 200px;
+		height: 200px;
+    }
+
+    #Galerie{
+    	flex-direction: column;
+    }
+
+    #Image3{
+    	width: 200px;
+    	height: 250px;
+    }
+
+    .image{
+    	height: 260px;
+    	position: relative;
+		width: 100%;
+		right: 20px;
+    }
+
+    article{
+    	width: 300px;
+    }
+
+    img{
+    	width: 200px;
+    	height: 200px;
+    }
+
+
+}
+
+@media screen and (min-width: 350px) and (min-height: 601px){
+    .Footer2{
+        bottom:0;
+    }
+}

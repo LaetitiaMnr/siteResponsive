@@ -1,0 +1,16 @@
+﻿/* Laetitia Monnier */
+
+/* Section */
+#Galerie{
+	margin-top: 80px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 100px;
+}
+
+.image{
+	text-align: center;
+	margin-left: 20px;
+}

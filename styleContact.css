@@ -1,0 +1,51 @@
+﻿/* Laetitia Monnier */
+
+.titreCont{
+	color: black;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+/* Section */
+#Contact{
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.6);
+	display: block;
+	margin: auto;
+}
+
+#envoyer:hover{
+    background-color: grey;
+    color: white;
+}
+
+form{
+	padding: 10px;
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+input{
+	display: flex;
+	margin: auto;
+	margin-top: 15px;
+}
+
+textarea{
+	display: flex;
+	margin: auto;
+	width: 100%;
+}
+
+input, textarea, select, option{
+	background-color: white;
+}
+
+input, textarea, select{
+	padding: 3px;
+	border: 1px solid #F5C5C5;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+

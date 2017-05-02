@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<title> Site Responsive </title>
+	<link rel="stylesheet" media="screen" href="styleScreen.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="styleIndex.css">
+	<link rel="stylesheet" type="text/css" href="styleContact.css">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html"> Home </a></li>
+				<li><a href="galerie.html"> Galerie </a></li>
+				<li><a href="contact.html"> Contact </a></li>
+			</ul>
+		</nav>
+
+		<section id="Contact">
+		<form method="POST" action="#">
+				<p class="titreCont">Nom* :</p><label for="nom"></label><input type="text" name="pnom" placeholder="Nom" maxlength="20" required autofocus/> </br>
+				<p class="titreCont">Prénom* :</p><label for="prenom"></label><input type="text" name="prenom" placeholder="Prenom" maxlength="20" required/> </br>
+				<p class="titreCont">Sujet* :</p><label for="sujet"></label><input type="text" name="sujet" placeholder="sujet" maxlength="20" required/> </br>
+				<p class="titreCont">Message* :</p><label for="message"></label><textarea name="message" placeholder="Veuillez saisir votre message..." rows="10" cols="55" required></textarea> </br>
+				<p class="titreCont" style="font-size: 15px"> * Champ obligatoire </p>
+				<input id="envoyer" type="submit" name="envoyer" value="Envoyer"/>
+
+		</form>
+	</section>
+
+	<footer class="Footer2">
+		<p> Copyrigth 2017 - Luminatie's Art </p>
+	</footer>
+	</body>
+</html>
+
+<!-- Laetitia Monnier -->
